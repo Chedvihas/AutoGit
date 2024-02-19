@@ -307,3 +307,19 @@ git: 'credential-sourcetree' is not a git command. See 'git --help'.
 fatal: could not read Password for 'https://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@github.com': Device not configured
 git: 'credential-sourcetree' is not a git command. See 'git --help'.
 fatal: could not read Password for 'https://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@github.com': Device not configured
+[main 2e5b67a] Cron checks each minute and commits these new changes
+ Committer: Chedvihas <chedvi@Chedvihass-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 18 insertions(+)
+fatal: could not read Password for 'https://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@github.com': Device not configured
+fatal: could not read Password for 'https://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@github.com': Device not configured
