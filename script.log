@@ -450,3 +450,14 @@ To push the current branch and set the remote as upstream, use
 To have this happen automatically for branches without a tracking
 upstream, see 'push.autoSetupRemote' in 'git help config'.
 
+[main 1a74db7] Cron checks each minute and commits these new changes
+ 2 files changed, 12 insertions(+), 2 deletions(-)
+fatal: could not read Password for 'https://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@github.com': Device not configured
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
