@@ -5,9 +5,9 @@ cd /Users/chedvi/Desktop/CI-CDTEST/
 commitmessage=$(
 git status --porcelain | \
 awk 'BEGIN { found = 0 } \
-/^??/ { newfiles = newfiles " ," $2; found = 1 } \
-/^ M / { modified = modified ", " $2; found = 1 } \
-/^ D / { deleted = deleted " ," $2; found = 1 } \
+/^??/ { newfiles = newfiles "" $2; found = 1 } \
+/^ M / { modified = modified "" $2; found = 1 } \
+/^ D / { deleted = deleted "" $2; found = 1 } \
 END { \
     if (found == 1) { \
         if (length(newfiles) > 0) { printf " Added problems%s", newfiles } \
