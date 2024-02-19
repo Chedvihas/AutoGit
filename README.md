@@ -1,7 +1,8 @@
 ### Automatic Git Commit and Push Script
 
 This project automates the process of staging, committing, and pushing changes from a local repository to a remote repository at a specific time each day.🔄
-Script automatically adds a commit message describing which files are created, updated and deleted.
+
+The Script automatically adds a commit message describing which files are created, updated, and deleted.
 
 #### Instructions:
 
