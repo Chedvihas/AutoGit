@@ -17,6 +17,7 @@ This project automates the process of staging, committing, and pushing changes f
     0 3 * * * /path/to/git.sh >/dev/null 2>&1
 
 4. This example runs the script at 3:00 AM daily. Replace /path/to/git.sh with the actual path to your script.⏰
+   
 **Note:**
 Ensure that Git is properly configured with the necessary credentials for the remote repository.🔑
 Adjust the cron schedule (0 3 * * * in the example) according to your desired time.
