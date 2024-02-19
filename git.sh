@@ -1,4 +1,5 @@
 # Add all changes and commit
+cd /Users/chedvi/Desktop/CI-CDTEST/
 git add .
 git commit -m "Auto-commit changes"
 
