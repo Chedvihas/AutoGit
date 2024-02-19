@@ -5,3 +5,10 @@ To https://github.com/Chedvihas/CI-CD-test.git
    9805b5e..1991435  main -> main
 branch 'main' set up to track 'origin/main'.
 Everything up-to-date
+[main 5974678] Cron checks each minute and commits these new changes
+ 3 files changed, 8 insertions(+), 7 deletions(-)
+ delete mode 100644 temp
+To https://github.com/Chedvihas/CI-CD-test.git
+   1991435..5974678  main -> main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
