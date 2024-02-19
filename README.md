@@ -4,7 +4,7 @@ This project automates the process of staging, committing, and pushing changes f
 
 #### Instructions:
 
-1. **Bash Script:** Use the provided `git.sh` [`git.sh`]([link-to-git.sh](https://github.com/Chedvihas/AutoGit/blob/main/git.sh)) script, which contains the necessary Git commands. Make sure it's executable using the command:
+1. **Bash Script:** Use the provided  [`git.sh`](https://github.com/Chedvihas/AutoGit/blob/main/git.sh) script, which contains the necessary Git commands. Make sure it's executable using the command:
    ```bash
    chmod +x git.sh
 
