@@ -10,7 +10,7 @@ awk 'BEGIN { found = 0 } \
 /^ D / { deleted = deleted "" $2; found = 1 } \
 END { \
     if (found == 1) { \
-        if (length(newfiles) > 0) { printf " Added problems%s", newfiles } \
+        if (length(newfiles) > 0) { printf " Added problems: %s", newfiles } \
         if (length(modified) > 0) { printf " | Updated problems: %s", modified } \
         if (length(deleted) > 0) { printf " | Deleted problems: %s|", deleted } \
         print "" \
